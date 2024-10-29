@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en ">
+
+<head>
+    <style>
+        .title {
+            color: rgb(50, 42, 165);
+        }
+    </style>
+    <style>
+        body {
+            min-height: 100vh;
+            background-size: cover;
+            background-image: url(background1.jpg);
+        }
+
+        .parent-container {
+            background-color: white;
+            border-radius: 10px;
+            width: 40%;
+            padding: 2%;
+            text-align: center;
+            margin: auto;
+            margin-top: 2%;
+
+        }
+
+        .form-field {
+            margin: 10px;
+        }
+
+        .form-field input,
+        .form-btn {
+            padding: 10px;
+            width: 70%;
+            margin:10px 0px
+
+        }
+@media 
+        .form-btn {
+            background-color: blue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+
+
+    <form class="parent-container" action="login.html">
+    <marquee direction="right">
+        <h2 class="title">Registration</h2></marquee>
+        <div class="form-field">
+            <input type="email" required name=" email" placeholder=" username">
+
+        </div>
+        <div class="form-field">
+            <input type="password" required name="password" placeholder=" password">
+        </div>
+        <div class="form-field">
+            <input type="password" required name=" conform password" placeholder=" conform password">
+        </div>
+        <div class="form-field">
+            <input type=" number" required name="number" placeholder=" phone number">
+        </div>
+        <button class=" form-btn">submit</button>
+        <p>Already have an account?<a href="login.html">login</a></p>
+
+
+    </form>
+
+
+</body>
+
+</html>
